@@ -1,0 +1,16 @@
+{
+  "@context": [
+    "https://w3id.org/openbadges/v2",
+    "https://w3id.org/blockcerts/v3"
+  ],
+  "id": "https://c/profile.json",
+  "type": "Profile",
+  "name": "Dorakemon University",
+  "url": "https://sako-lab.jp/",
+  "email": "kenwaz113@ruri.waseda.jp",
+  "publicKey": [
+    {
+      "id": "ecdsa-koblitz-pubkey:0xD629C803f99433d823efEFCF0678A9945d9A5e5F"
+    }
+  ]
+}

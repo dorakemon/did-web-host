@@ -1,0 +1,21 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.associations": {
+    "Dockerfile*": "dockerfile",
+    ".env.*": "env"
+  },
+  "[javascript][typescript][javascriptreact][typescriptreact][json][markdown]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "conventionalCommits.scopes": ["ari", "cap", "sui"],
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    ".*ClassName.*"
+  ]
+}

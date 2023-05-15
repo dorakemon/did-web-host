@@ -1,0 +1,24 @@
+{
+  "@context": ["https://www.w3.org/ns/did/v1"],
+  "id": "did:web:dorakemon.github.io:did-web-host",
+  "service": [
+    {
+      "id": "#issuer-profile",
+      "type": "IssuerProfile",
+      "serviceEndpoint": "https://dorakemon.github.io/did-web-host/profile.json"
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#key-1",
+      "controller": "did:web:dorakemon.github.io:did-web-host",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "K-256",
+        "x": "YvdNyToQIEbhq8duzrpJizls4AbpjdhbqTzlZ0geQXQ",
+        "y": "03aHWIRfYWOd1vuubgP4AVGAjN5witJ1GtljstOcgWc"
+      }
+    }
+  ]
+}
